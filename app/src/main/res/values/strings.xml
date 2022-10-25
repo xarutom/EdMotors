@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">EdMotors</string>
+    <string name="txtlogin">Login:</string>
+    <string name="txtCpf">CPF:</string>
+    <string name="txtTel">Telefone:</string>
+    <string name="txtSenha">Senha:</string>
+    <string name="txtNome">Nome Completo:</string>
+    <string name="txtCadastrar">Cadastrar</string>
+    <string name="txtCadastro">Cadastrar</string>
+    <string name="txtWelcome">SEJA BEM VINDO AO</string>
+    <string name="txtEntrar">Entrar</string>
+    <string name="txtTelaCadastro">Cadastro</string>
+</resources>
