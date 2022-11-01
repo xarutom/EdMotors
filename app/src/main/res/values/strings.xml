@@ -10,4 +10,7 @@
     <string name="txtWelcome">SEJA BEM VINDO AO</string>
     <string name="txtEntrar">Entrar</string>
     <string name="txtTelaCadastro">Cadastro</string>
+    <string name="txtInicio">Inicio</string>
+    <string name="txtValores">Valores</string>
+    <string name="txtConvenio">Convênio</string>
 </resources>
