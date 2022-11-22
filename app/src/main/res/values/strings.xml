@@ -13,4 +13,5 @@
     <string name="txtInicio">Inicio</string>
     <string name="txtValores">Valores</string>
     <string name="txtConvenio">Convênio</string>
+    <string name="txtIncorreta">Senha Incorreta</string>
 </resources>
