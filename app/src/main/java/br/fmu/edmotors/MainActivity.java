@@ -7,6 +7,7 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.TextView;
+import androidx.room.Query;
 
 import java.util.Locale;
 
@@ -40,7 +41,9 @@ public class MainActivity extends AppCompatActivity {
 
         String Login = editTextEntrar.getText().toString();
         Integer Senha = Integer.parseInt(editTextPass.getText().toString());
-        Login.toLowerCase();
+
+        Login.toLowerCase(Locale.ROOT);
+
         if (Login.equals("Gustavo") && Senha == 123){
             System.out.println("Autorizado");;
             startActivity(intent);

@@ -20,7 +20,9 @@ public class HomeActivity extends AppCompatActivity {
     }
 
     public void abrirConvenio(View view){
-        Intent intent = new Intent();
+
+        Intent intent = new Intent(this, ConvenioActivity.class);
+        startActivity(intent);
     }
 
     public void abrirInicio(View view){

@@ -6,16 +6,16 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 
-public class ValoresActivity extends AppCompatActivity {
+public class ConvenioActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_valores);
+        setContentView(R.layout.activity_convenio);
     }
 
-    public void abrirInicio(View view){
-        Intent intent = new Intent(this, HomeActivity.class);
+    public void abrirValores(View view){
+        Intent intent = new Intent(this, ValoresActivity.class);
         startActivity(intent);
     }
 
@@ -24,9 +24,8 @@ public class ValoresActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ConvenioActivity.class);
         startActivity(intent);
     }
-
-    public void abrirValores(View view){
-        Intent intent = new Intent(this, ValoresActivity.class);
+    public void abrirInicio(View view){
+        Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
 }

@@ -11,6 +11,9 @@ import java.util.List;
 
 @Dao
 public interface FuncionarioDao {
+    @Query("SELECT * FROM Funcionario where Login=:login and Senha=:Senha")
+    Funcionario buscarPorLogin(String login, int Senha);
+
     @Query("SELECT * FROM Funcionario")
     List<Funcionario> getFuncionarios();
     @Insert(onConflict = OnConflictStrategy.REPLACE)
