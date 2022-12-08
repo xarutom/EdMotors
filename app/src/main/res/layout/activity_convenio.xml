@@ -47,6 +47,7 @@
         android:layout_marginEnd="95dp"
         android:layout_marginRight="95dp"
         android:layout_marginBottom="20dp"
+        android:onClick="abrirPagamento"
         android:text="PLANO DIÁRIO 10% OFF 08:00 ÁS 18:00"
         app:layout_constraintBottom_toTopOf="@+id/button13"
         app:layout_constraintEnd_toStartOf="@+id/button14"
@@ -62,6 +63,7 @@
         android:layout_marginEnd="95dp"
         android:layout_marginRight="95dp"
         android:layout_marginBottom="125dp"
+        android:onClick="abrirPagamento"
         android:text="PLANO MENSAL 20% OFF"
         app:layout_constraintBottom_toTopOf="@+id/textView24"
         app:layout_constraintEnd_toStartOf="@+id/button15"
@@ -72,21 +74,26 @@
         android:id="@+id/button14"
         android:layout_width="115dp"
         android:layout_height="114dp"
+        android:layout_marginTop="190dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
         android:layout_marginBottom="20dp"
+        android:onClick="abrirPagamento"
         android:text="PLANO SEMANAL 15% OFF"
         app:layout_constraintBottom_toTopOf="@+id/button15"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button9" />
+        app:layout_constraintStart_toEndOf="@+id/button9"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button15"
         android:layout_width="115dp"
         android:layout_height="114dp"
+        android:layout_marginTop="20dp"
         android:layout_marginEnd="40dp"
         android:layout_marginRight="40dp"
-        android:layout_marginBottom="15dp"
+        android:layout_marginBottom="65dp"
+        android:onClick="abrirPagamento"
         android:text="PLANO ANUAL 35% OFF"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -118,17 +125,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="@+id/button18" />
-
-    <ImageView
-        android:id="@+id/imageView3"
-        android:layout_width="249dp"
-        android:layout_height="0dp"
-        android:layout_marginBottom="630dp"
-        app:layout_constraintBottom_toTopOf="@+id/button18"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/logo" />
 
     <TextView
         android:id="@+id/textView24"
@@ -174,6 +170,7 @@
         android:layout_marginBottom="50dp"
         android:onClick="abrirConvenio"
         android:text="CONVÊNIO"
+        android:textColor="@color/white"
         app:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button17"
@@ -189,6 +186,7 @@
         android:layout_marginRight="13dp"
         android:onClick="abrirInicio"
         android:text="INICIO"
+        android:textColor="@color/white"
         app:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="@+id/textView23"
         app:layout_constraintEnd_toStartOf="@+id/button18"
@@ -200,9 +198,9 @@
         android:layout_height="wrap_content"
         android:onClick="abrirValores"
         android:text="VALORES"
+        android:textColor="@color/white"
         app:backgroundTint="@android:color/transparent"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toEndOf="@+id/button17"
-        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+        app:layout_constraintStart_toEndOf="@+id/button17" />
 </androidx.constraintlayout.widget.ConstraintLayout>

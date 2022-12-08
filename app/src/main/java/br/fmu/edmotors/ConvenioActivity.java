@@ -28,4 +28,9 @@ public class ConvenioActivity extends AppCompatActivity {
         Intent intent = new Intent(this, HomeActivity.class);
         startActivity(intent);
     }
+
+    public void abrirPagamento(View view){
+        Intent intent = new Intent(this, PagamentoActivity.class);
+        startActivity(intent);
+    }
 }

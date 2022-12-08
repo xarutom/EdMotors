@@ -29,4 +29,9 @@ public class ValoresActivity extends AppCompatActivity {
         Intent intent = new Intent(this, ValoresActivity.class);
         startActivity(intent);
     }
+
+    public void abrirPagamento(View view){
+        Intent intent = new Intent(this, PagamentoActivity.class);
+        startActivity(intent);
+    }
 }

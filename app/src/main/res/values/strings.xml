@@ -14,4 +14,12 @@
     <string name="txtValores">Valores</string>
     <string name="txtConvenio">Convênio</string>
     <string name="txtIncorreta">Senha Incorreta</string>
+    <string name="txtPagamentos">Selecione a Forma de Pagamento</string>
+    <string name="txtCartao">Crédito/Débito</string>
+    <string name="txtPix">Pix</string>
+    <string name="txtBoleto">Boleto</string>
+    <string name="codCartao">Código do Cartão</string>
+    <string name="codSeguranca">Código de Segurança</string>
+    <string name="txtAvancar">Avançar</string>
+    <string name="txtManutencao">Tente novamente mais tarte, está função está temporariamente desativada</string>
 </resources>

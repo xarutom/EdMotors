@@ -14,6 +14,13 @@
         android:theme="@style/Theme.EdMotors"
         tools:targetApi="31">
         <activity
+            android:name=".PagamentoActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".ConvenioActivity"
             android:exported="false" />
         <activity
